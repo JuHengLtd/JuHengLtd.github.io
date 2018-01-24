@@ -92,16 +92,16 @@ body{
 	width: 102%;
 }
 .top-menu lable img{
-	width:100%;
+	/* width:100%; */
 }
-.top-menu ul li a.active{
+/* .top-menu ul li a.active{
 	color:#c5f4ff;
 	background:#12a3d6;
 	padding:40px 13px 38px 14px;
 	border-radius:0px;
 	position: relative;
 
-} 
+}  */
 .sb-search {
 	width: 0%;
 	position: absolute;
@@ -1051,11 +1051,13 @@ background: #F98561;
 	padding: 3em 0;
 }
 .portfolio-header h3 {
-	text-align: center;
-	font-size: 4.5em;
-	color: #12a3d6;
-	font-family: fantasy;
-	font-weight: 400;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #2190C2;
+    font-family: fantasy;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
 }
 /* WRAPPER */
 .dropdown-button:first-child{
