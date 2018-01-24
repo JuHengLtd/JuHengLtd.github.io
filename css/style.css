@@ -58,7 +58,6 @@ body{
 .top-menu{
 	float: right;
 	padding: 10px 0 0 0;
-	width: 70%;
 	
 }
 
@@ -827,7 +826,7 @@ background: #F98561;
 .footer
 {
 	background: #2e3e4f;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 .twitter-feeds h3 {
 	color: #F98561;
@@ -1010,7 +1009,7 @@ background: #F98561;
 .footer-bottom 
 {
 	 text-align: center;
-	 padding:2em 0 0 0;
+	 padding:0;
 }
 .footer-bottom p 
 {
