@@ -580,6 +580,8 @@ div#portfoliolist {
 	text-transform:uppercase;
 }
 /* Self Clearing Goodness */
+.banner .container{padding:0;}
+.about-text .container{background:#fff;padding-top:40px;}
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before,
 .clearfix:after,
@@ -1493,7 +1495,7 @@ background: #F98561;
 /*** end portfolio ***/
 /*** about ***/
 .about-text {
-	padding: 40px 0;
+	padding: 0 0 40px;
 	text-align: center;
 }
 .about-text h3 {
@@ -1645,9 +1647,29 @@ ul.nav {
 }
 /*** end about ***/
 /*** contact***/
+.portfolio #info{
+	background:#f4f4f4;
+}
+.portfolio{
+	max-width:1170px;
+	margin:0 auto;
+	background:#fff;
+	overflow:hidden;
+}
+.portfolio .info_inner_news
+{
+ padding:0 20px;
+}
+.info_inner{
+	background:#fff;
+}
 .contact-text {
-	padding: 40px 0;
+	padding: 0 0 40px;
 	text-align: center;
+}
+.contact-text .container{
+	background:#fff;
+	padding:40px 40px 0
 }
 .contact-text h3 {
 	font-size: 3em;
@@ -3489,14 +3511,15 @@ li .more i{vertical-align:1px;margin-left:10px;width:0;height:0;display:inline-b
 	line-height: 2em;
 	font-weight: bold;
 	color: #003f76;
+	width: 100%;
+	text-align: center;
 }
 #info{
-	background: #fafafa;
+	background: #fff;
 }
 #info .info_inner{
 	width:1200px;
 	margin:0 auto;
-	padding-top:40px;
 	padding-bottom:60px;
 	overflow: hidden;
 	text-align:center;
@@ -3627,3 +3650,12 @@ li .more i{vertical-align:1px;margin-left:10px;width:0;height:0;display:inline-b
 	background: #ff5b2d;
 	color:#fff;
 }
+/**page**/
+.page{padding-top:10px; text-align:right;}
+.page a{padding-left:2px;}
+.pageNum{ width:1000px;margin:0 auto;height:35px; overflow:hidden;padding:10px 0; text-align:center; color:#407aa0;}
+.pageNum input{border:#407aa0 solid 1px;}
+.pageNum a{display:inline-block;height:25px; padding:0px 10px 0px 10px; line-height:25px; text-align:center; overflow:hidden; border:#b61e22  solid 1px; margin:0 3px; color:#b61e22 ;}
+.pageNum a:hover, .pageNum .aNow{border:#b61e22  solid 1px; background:#b61e22 ;color:#fff;}
+.pageNum .this a{background:#b61e22 ; color:#fff;}
+/**page**/
