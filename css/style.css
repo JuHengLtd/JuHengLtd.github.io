@@ -303,6 +303,13 @@ a.morebtn:hover{
 }
 ul.callbacks_tabs.callbacks1_tabs {
 	position: absolute;
+
+
+
+
+
+
+	
 	bottom: 20px;
 	z-index: 999;
 	left: 77%;
@@ -1035,8 +1042,8 @@ background: #F98561;
 .banner
 {
 	/*background: url("../images/image2.jpg") no-repeat;*/
-	background-size: cover;
-	min-height:310px;
+ background:#f4f4f4;
+
 }
 .banner h3
 {
